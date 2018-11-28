@@ -1,0 +1,85 @@
+﻿* {
+	box-sizing: border-box; /* Les mides inclouen 'padding', 'border' i el 'content' (no el margin) */
+		padding: 0px;
+		margin: 0px;
+}
+header  {
+	color: pink;
+	height:10%;
+	text-align: center;
+
+	
+}
+#body-opcion1 {
+	background-image: url('../img/texture.jpg');
+	color: white;
+	
+}
+nav {
+	width: 25%;
+	float: left;
+	
+}
+section {
+	width: 45%;
+	height : 200px;
+	float: left;
+	
+	}
+#content{
+	float: right;
+	height: 80%;
+}
+	
+#body-opcion2 { 
+
+   background-image: url('../img/texture.jpg');
+color : white 
+}
+	
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	padding: 8px;
+	margin-bottom: 8px;
+	background-color: #33b5e5;
+	color: white;
+}
+nav li:hover {
+	background-color: cyan;
+	color: black;
+}
+#video {
+	float: left;
+	width:75%; height:500px;
+	overflow:auto;
+}
+#content-right{
+	float:right;
+	width: 25%;
+}
+#body-opcion3{
+color : pink;
+background-color:gray;
+}
+
+
+h2 { color : rgb(0,0,255)
+}
+footer ul {
+			list-style-type: none;
+			margin: 0;
+			
+		}
+footer{ 
+	height: 10%;
+    bottom: 0;
+    margin: 0 auto;
+}		
+	
+
+
